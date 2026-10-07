@@ -4,7 +4,7 @@ A simple Pokemon gacha game built w/ HTML, CSS, and vanilla JavaScript.
 
 Draw a random Pokemon from the first generation, collect Pokémon in your Pokedex, and switch between Korean, English, and Japanese names.
 
-[Features]
+# Features
 
 🎲 Draw a random Pokémon from Gen 1 (#001–151)
 
@@ -24,17 +24,19 @@ Draw a random Pokemon from the first generation, collect Pokémon in your Pokede
 
 ❌ Handle API and network errors
 
-[Language Support]
+# Language Support
 
 Pokemon names can be displayed in:
+
 🇰🇷 Korean
+
 🇺🇸 English
+
 🇯🇵 Japanese
 
 The selected language updates both the currently displayed Pokemon and the Pokemon stored in the Pokedex.
 
-
-[What I Practiced]
+# What I Practiced
 
 Through this project, I practiced:
 
@@ -53,3 +55,6 @@ Saving and restoring data with localStorage
 Using data-* attributes for UI state
 
 Dynamically rendering UI based on application state
+
+# Live Demo
+https://esther120.github.io/pokemon-gacha/
