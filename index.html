@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gacha</title>
+    <link rel="stylesheet" href="gacha.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main class="gacha">
+      <div class="language-buttons">
+        <button class="language-button" data-lang="ko">KO</button>
+        <button class="language-button" data-lang="en">EN</button>
+        <button class="language-button" data-lang="jp">JP</button>
+      </div>
+      <header class="gacha-header">
+        <h1>Pokemon Gacha</h1>
+        <div class="header-buttons">
+          <button id="reset-button" type="button">Reset</button>
+          <button id="dex-button" class="pokedex" type="button">
+            Pokedex <span id="dex-count">0</span> / <span id="dex-max"></span>
+          </button>
+        </div>
+      </header>
+      <section class="stage">
+        <img id="pokemon-image" class="pokemon-image" src="" alt="" />
+        <div id="pokeball" class="pokeball">X</div>
+        <p id="status-message">Try your luck!</p>
+        <div id="pokemon-info" class="pokemon-info">
+          <span id="pokemon-number"></span>
+          <strong id="pokemon-name"></strong>
+        </div>
+      </section>
+      <button id="draw-button" type="button">Draw</button>
+      <section id="dex-panel" class="dex-panel">
+        <h2>My Pokedex</h2>
+        <div id="dex-list" class="dex-list"></div>
+      </section>
+    </main>
+  </body>
+</html>
